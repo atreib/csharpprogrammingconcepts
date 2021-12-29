@@ -4,4 +4,5 @@
 
 ### Object-oriented programming
 
-- **Encapsulation**: See the example on `/ProgrammingConcepts/oo/Encapsulation.cs` (Read more at https://cloudy-marsupial-788.notion.site/Encapsulation-95a4ce6048a64e7d9fb58f3a4fd4a014)
+- **Encapsulation**: See the example on `/Encapsulation/Encapsulation.cs` (Read more at https://cloudy-marsupial-788.notion.site/Encapsulation-95a4ce6048a64e7d9fb58f3a4fd4a014)
+- **Composition**: See the example on `/Composition/Example/` (Read more at https://cloudy-marsupial-788.notion.site/Composition-7b939af55ce84d00a4ed115b6737fffc)

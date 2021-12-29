@@ -6,9 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="oo\" />
+    <None Remove="Example\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="oo\" />
+    <Folder Include="Example\" />
   </ItemGroup>
 </Project>
