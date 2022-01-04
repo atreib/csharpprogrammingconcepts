@@ -29,6 +29,7 @@ namespace Association
             ", studentRalph.GetName(), studentJoe.GetName()));
 
             Console.WriteLine("We can remove an student, create a new one and our class will still up and running!");
+            Console.WriteLine("Our class has students and a teacher, but our Student/Teacher can't have an own Class.");
         }
     }
 }
