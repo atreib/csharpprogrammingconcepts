@@ -4,10 +4,10 @@ using System.Collections.Generic;
 namespace Association
 {
     /**
-     * In our "Class" class, we're creating an association
+     * In our "Class" class, we're creating an aggregation
      *   between our Student and Teacher classes.
-     * They both exists by their own, and can associate with
-     *   different classes at the same time.
+     * They both exist by their own, and are aggregated in out Class class.
+     *   A Class has students and a teacher, but the otherwise is false.
      */
     public class Class
     {
