@@ -6,30 +6,16 @@ namespace Association
     {
         static void Main(string[] args)
         {
-            Teacher teacherAndre = new Teacher("André");
-            Student studentJoe = new Student("Joe");
-            Student studentRalph = new Student("Ralph");
+            Person andre = new Person("Andre");
+            Person giovana = new Person("Giovana");
+            Person kid = new Person("Joseph");
 
-            Class devClass = new Class("Software Development", teacherAndre);
-            devClass.AddStudent(studentJoe);
-            devClass.AddStudent(studentRalph);
+            andre.Marry(giovana);
+            giovana.Marry(andre);
 
-            Console.WriteLine(String.Format(@"
-                Our {0} class is given by {1}.
-                Right now, {2} are in the class.
-            ", devClass.GetName(), devClass.GetTeacher(), devClass.GetStudents()));
-
-            Console.WriteLine(String.Format(@"
-                Anyhow, our teacher object exists by itself, having its own behavior,
-                like, ie, we can get its name: {0}
-            ", teacherAndre.GetName()));
-
-            Console.WriteLine(String.Format(@"
-                The same works for our students {0} and {1}
-            ", studentRalph.GetName(), studentJoe.GetName()));
-
-            Console.WriteLine("We can remove an student, create a new one and our class will still up and running!");
-            Console.WriteLine("Our class has students and a teacher, but our Student/Teacher can't have an own Class.");
+            Console.WriteLine(String.Format("Andre is married with {0}.", andre.IsMarriedTo()));
+            Console.WriteLine(String.Format("Giovana is married to {0}.", giovana.IsMarriedTo()));
+            Console.WriteLine(String.Format("Joseph, which is a kid, is married with no one, so it returns: {0}.", kid.IsMarriedTo()));
         }
     }
 }
