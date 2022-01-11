@@ -24,7 +24,6 @@ namespace Stack
             {
                 Console.WriteLine(ex.Message);
             }
-            
         }
     }
 }

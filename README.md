@@ -19,3 +19,4 @@
 ### Data structure
 
 - **Stack**: See the example on `/DataStructure/Stack/Program.cs` (Read more at https://cloudy-marsupial-788.notion.site/Stacks-a65b20549acb4987a9558017c61f5f8b)
+- **Queue**: See the example on `/DataStructure/Queue/Program.cs` (Read more at https://cloudy-marsupial-788.notion.site/Queue-d131c49e6ed3490398e9359534355c05)
